@@ -1,16 +1,46 @@
-# React + Vite
+# 📋 SimpleTask
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SimpleTask es una aplicación web desarrollada con React que permite organizar tareas de manera sencilla y eficiente.
 
-Currently, two official plugins are available:
+## 📸 Vista previa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="852" height="942" alt="image" src="https://github.com/user-attachments/assets/4d3018f1-14a5-4c76-ba25-ca0c61c5ba40" />
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Funcionalidades
 
-## Expanding the ESLint configuration
+- ✅ Agregar tareas.
+- ✅ Eliminar tareas.
+- ✅ Marcar tareas como completadas.
+- ✅ Guardado automático con LocalStorage.
+- ✅ Consejos de productividad.
+- ✅ Estadísticas.
+- ✅ Barra de progreso.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Softwers utilizados 
+
+- React
+- Vite
+- JavaScript
+- CSS
+- LocalStorage
+- Git
+- GitHub
+
+---
+
+ Cómo ejecutar el proyecto
+
+```bash
+git clone https://github.com/kevinaguayo404/EcoTask-proyecto.git
+
+cd EcoTask-proyecto
+
+npm install
+
+npm run dev
+
+Nombre: Kevin Aguayo
+
+Proyecto Final: Ingeniería de Software Sostenible
