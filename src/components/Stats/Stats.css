@@ -1,0 +1,41 @@
+.stats{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:15px;
+
+    margin-top:25px;
+
+}
+
+.stat-card{
+
+    flex:1;
+
+    background:white;
+
+    border-radius:10px;
+
+    padding:20px;
+
+    text-align:center;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.stat-card h2{
+
+    color:#2E7D32;
+
+    margin:10px 0;
+
+}
+
+.stat-card p{
+
+    color:#777;
+
+}

@@ -1,0 +1,15 @@
+.task-form{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:25px;
+
+}
+
+.task-form input{
+
+    flex:1;
+
+}

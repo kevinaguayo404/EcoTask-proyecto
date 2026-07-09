@@ -1,8 +1,13 @@
+import "./Header.css";
+
 function Header() {
   return (
-    <header>
-      <h1>🌱 EcoTask</h1>
-      <p>Organiza tus tareas de forma sostenible.</p>
+    <header className="header">
+      <h1>SimpleTask</h1>
+
+      <p>
+        Organiza tu tiempo de forma eficiente
+      </p>
     </header>
   );
 }

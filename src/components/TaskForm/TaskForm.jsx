@@ -1,27 +1,44 @@
 import { useState } from "react";
+import "./TaskForm.css";
 
 function TaskForm({ addTask }) {
-  const [task, setTask] = useState("");
+
+  const [text, setText] = useState("");
+
+  function handleSubmit() {
+
+    addTask(text);
+
+    setText("");
+
+  }
 
   return (
-    <div>
+
+    <div className="task-form">
+
       <input
+
         type="text"
-        placeholder="Escribe una tarea..."
-        value={task}
-        onChange={(event) => setTask(event.target.value)}
+
+        placeholder="Escribe una nueva tarea..."
+
+        value={text}
+
+        onChange={(e)=>setText(e.target.value)}
+
       />
 
-      <button
-        onClick={() => {
-          addTask(task);
-          setTask("");
-        }}
-      >
+      <button onClick={handleSubmit}>
+
         Agregar
+
       </button>
+
     </div>
+
   );
+
 }
 
 export default TaskForm;

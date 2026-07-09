@@ -1,0 +1,29 @@
+.tip{
+
+    background:#E8F5E9;
+
+    border-left:6px solid #2E7D32;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    margin-bottom:25px;
+
+}
+
+.tip h3{
+
+    color:#2E7D32;
+
+    margin-bottom:10px;
+
+}
+
+.tip p{
+
+    color:#455A64;
+
+    line-height:1.5;
+
+}
